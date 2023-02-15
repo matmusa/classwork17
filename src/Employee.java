@@ -17,9 +17,9 @@ public class Employee extends Person {
     @Override
     public void work() {
         if (id == 1) {
-            System.out.println("working ");
-        } else if (id == 0) {
-            System.out.println("doesnt work");
+            System.out.println("working");
+        } else {
+            System.out.println("doesnt work ");
 
         }
     }
